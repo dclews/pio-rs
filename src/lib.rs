@@ -1,4 +1,4 @@
-#![feature(no_std, asm, const_fn)]
+#![feature(asm, const_fn)]
 #![no_std]
 
 pub struct Port {

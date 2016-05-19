@@ -4,7 +4,7 @@ version = "0.1.0"    # the current version, obeying semver
 authors = ["clueless_@live.co.uk"]
 
 [lib]
-crate-type = ["staticlib"]
+crate-type = ["rlib"]
 name = "pio"
 path = "src/lib.rs"
 
