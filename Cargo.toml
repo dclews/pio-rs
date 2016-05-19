@@ -1,0 +1,13 @@
+[package]
+name = "pio" # the name of the package
+version = "0.1.0"    # the current version, obeying semver
+authors = ["clueless_@live.co.uk"]
+
+[lib]
+crate-type = ["staticlib"]
+name = "pio"
+path = "src/lib.rs"
+
+[dependencies]
+rust-libcore = "*"
+rlibc = { git = "https://github.com/xClueless/rlibc.git" }
