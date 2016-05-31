@@ -9,5 +9,5 @@ name = "pio"
 path = "src/lib.rs"
 
 [dependencies]
-rust-libcore = "*"
-rlibc = { git = "https://github.com/xClueless/rlibc.git" }
+rlibc = "1.0.0"
+
